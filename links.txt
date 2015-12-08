@@ -1,0 +1,5 @@
+http://www.moneycontrol.com/rss/MCtopnews.xml
+http://feeds.reuters.com/reuters/INworldNews
+http://timesofindia.feedsportal.com/c/33039/f/533916/index.rss
+http://feeds.bbci.co.uk/news/health/rss.xml
+http://timesofindia.feedsportal.com/c/33039/f/533916/index.rss
