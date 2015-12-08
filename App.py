@@ -72,7 +72,7 @@ def main():
     newsReader = NewsReader(rss)
     
     while (keepGoing == True):
-        if (inpPin.read() == 0):
+        if (inpPin.read() == 1):
             print "Reading the news"
             time.sleep(0.1)
             if os.path.isfile(config.NEW_LIST_FILE):
@@ -98,7 +98,7 @@ def main():
                 os.remove(config.NEW_LIST_FILE)
                 
             newsReader.run()
-            while (inpPin.read() == 0):
+            while (inpPin.read() == 1):
                 pass
         else:
             time.sleep(0.1)
